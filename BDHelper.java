@@ -18,10 +18,10 @@ class DBHelper extends SQLiteOpenHelper {
 
     private static String TABLE_EMPREGADOS = "CREATE TABLE EMPREGADO("
             +" _idEmpregado INTEGER PRIMARY KEY AUTOINCREMENT, "
-            +"_nome TEXT NOT NULL, "
-            +"_matricula TEXT NOT NULL, "
-            +"_email TEXT NOT NULL, "
-            +"_senha TEXT NOT NULL"
+            +"nome TEXT NOT NULL, "
+            +"matricula TEXT NOT NULL, "
+            +"email TEXT NOT NULL, "
+            +"senha TEXT NOT NULL"
             +");";
 
     private static String TABLE_EQUIPAMENTO = "CREATE TABLE EQUIPAMENTO("
